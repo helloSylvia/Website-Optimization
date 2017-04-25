@@ -42,3 +42,6 @@
 2、预加载js，使用requestAnimationFrame<br/>
 3、在滚动时，对每个pizza的left设置，用 transform 来代替，那么浏览器会为这个元素单独创立一个合成层<br/>
 4、使用 getElementById 来代替 querySelector使用 getElementsByClassName 代替 querySelectorAll<br/>
+5、提出在for循环中，重复查找DOM的代码
+### style.css
+1、.move 添加will-change :transform;
